@@ -340,7 +340,7 @@ function About() {
         <div className="grid lg:grid-cols-[0.4fr_0.6fr] gap-8 lg:gap-16">
           <div>
             <Eyebrow index="00">PROFILE</Eyebrow>
-            <h2 className="section-title">Senior craft, student energy.</h2>
+            <h2 className="section-title">{PROFILE.tagline}</h2>
           </div>
           <p className="text-ink-soft leading-[1.75] text-[0.98rem] self-center">
             {PROFILE.summary}

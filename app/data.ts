@@ -1,12 +1,12 @@
 export const PROFILE = {
   name: 'Aniket Deshpande',
   title: 'AI Engineer · MSc AI & Robotics · Working Student Gen AI @ Allianz',
-  tagline: 'Building production AI systems — from LLM pipelines to edge deployment.',
+  tagline: 'Turning AI ideas into shipped features.',
   email: 'deshpandeaniket8055@gmail.com',
   linkedin: 'https://linkedin.com/in/deshpandeaniket8055',
   github: 'https://github.com/AniketDeshpande-23',
   summary:
-    'I build AI systems that ship. Working Student Gen AI @ Allianz SE — evaluating enterprise LLMs, building POCs, driving adoption at scale. Alongside that: MSc AI & Robotics at Hof University, with a focus on LLMs, RAG, and edge deployment. Recent work: 95% accurate defect detection on Jetson Nano, 25% RAG accuracy uplift, a full-stack AI support agent (React + FastAPI + Docker), and a 5-agent literature review pipeline. The research makes the engineering sharper — the engineering keeps the research honest.',
+    'I specialise in turning GenAI ideas into working features that teams can try, measure, and iterate on. In industry projects I\'ve built RAG flows, evaluation scripts, and full-stack interfaces that let non-technical stakeholders interact with LLMs and give feedback. My academic work on multi-agent vs single-LLM approaches gives me a good sense of what is hype and what actually improves reliability, latency, or accuracy. I\'m looking for a junior role where I can collaborate closely with product and engineering to ship AI capabilities that make a visible difference to users.',
 }
 
 export const EXPERIENCE = [

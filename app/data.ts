@@ -3,11 +3,10 @@ export const PROFILE = {
   title: 'AI Engineer · MSc AI & Robotics · Working Student Gen AI @ Allianz',
   tagline: 'Building production AI systems — from LLM pipelines to edge deployment.',
   email: 'deshpandeaniket8055@gmail.com',
-  location: 'Hof, Germany',
   linkedin: 'https://linkedin.com/in/deshpandeaniket8055',
   github: 'https://github.com/AniketDeshpande-23',
   summary:
-    'MSc student in Artificial Intelligence and Robotics (Hof University) with hands-on industry experience in enterprise Gen AI adoption at Allianz SE. Specialisation in LLMs, RAG pipelines, and AI deployment on edge and cloud. Track record of production-ready AI systems: 95% accuracy object detection on Jetson Nano, 25% RAG accuracy uplift, full-stack AI support agent (React + FastAPI). Bridging research depth with enterprise impact.',
+    'I build AI systems that ship. Working Student Gen AI @ Allianz SE — evaluating enterprise LLMs, building POCs, driving adoption at scale. Alongside that: MSc AI & Robotics at Hof University, with a focus on LLMs, RAG, and edge deployment. Recent work: 95% accurate defect detection on Jetson Nano, 25% RAG accuracy uplift, a full-stack AI support agent (React + FastAPI + Docker), and a 5-agent literature review pipeline. The research makes the engineering sharper — the engineering keeps the research honest.',
 }
 
 export const EXPERIENCE = [

@@ -283,9 +283,6 @@ function Hero() {
             </a>
           </div>
 
-          <p className="mt-6 flex items-center gap-2 text-sm text-ink-muted font-mono">
-            <MapPin size={13} /> {PROFILE.location}
-          </p>
         </motion.div>
 
         {/* Right — terminal identity panel */}
@@ -802,7 +799,6 @@ function Contact() {
             <h2 className="section-title">Let&apos;s build something.</h2>
             <p className="mt-4 text-ink-soft leading-relaxed max-w-md">
               Open to AI/ML engineering roles, research collaboration, and hard problems worth solving.
-              Based in {PROFILE.location}.
             </p>
           </div>
           <div className="space-y-3">

@@ -243,7 +243,7 @@ function Hero() {
   const focus = ['LLM pipelines & RAG', 'Computer vision on edge', 'Agentic AI systems', 'Enterprise Gen AI']
   return (
     <section
-      id="about"
+      id="top"
       className="relative min-h-screen flex items-center pt-28 pb-20 px-5 sm:px-6 overflow-hidden"
     >
       <div className="max-w-6xl mx-auto w-full grid lg:grid-cols-[1.15fr_0.85fr] gap-12 lg:gap-16 items-center">
@@ -338,7 +338,7 @@ function Hero() {
 // ── About ────────────────────────────────────────────────────────────────────
 function About() {
   return (
-    <section className="max-w-6xl mx-auto px-5 sm:px-6 py-20 border-t border-white/[0.05]">
+    <section id="about" className="max-w-6xl mx-auto px-5 sm:px-6 py-20 border-t border-white/[0.05]">
       <Reveal>
         <div className="grid lg:grid-cols-[0.4fr_0.6fr] gap-8 lg:gap-16">
           <div>
@@ -567,20 +567,10 @@ function StandardCard({
   const reduce = useReducedMotion()
   return (
     <Reveal delay={index * 0.05} className="lg:col-span-2">
-      <motion.div
+      <motion.article
         whileHover={reduce ? undefined : { y: -4 }}
         transition={{ type: 'spring', stiffness: 300, damping: 26 }}
-        onClick={onToggle}
-        role="button"
-        tabIndex={0}
-        aria-expanded={expanded}
-        onKeyDown={(e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault()
-            onToggle()
-          }
-        }}
-        className="group card h-full flex flex-col cursor-pointer hover:border-accent/40 hover:shadow-[0_0_34px_-14px_rgba(99,102,241,0.5)]"
+        className="group card h-full flex flex-col hover:border-accent/40 hover:shadow-[0_0_34px_-14px_rgba(99,102,241,0.5)]"
       >
         <div className="flex items-start justify-between gap-2">
           <h3 className="text-ink font-semibold leading-tight">{proj.title}</h3>
@@ -633,10 +623,16 @@ function StandardCard({
           )}
         </AnimatePresence>
 
-        <span className="mt-auto pt-4 font-mono text-[0.65rem] text-ink-muted group-hover:text-accent-2 transition-colors">
+        <button
+          type="button"
+          onClick={onToggle}
+          aria-expanded={expanded}
+          aria-label={expanded ? `Collapse details for ${proj.title}` : `Expand details for ${proj.title}`}
+          className="mt-auto pt-4 self-start font-mono text-[0.65rem] text-ink-muted hover:text-accent-2 focus-visible:text-accent-2 transition-colors cursor-pointer"
+        >
           {expanded ? '— collapse' : '+ details'}
-        </span>
-      </motion.div>
+        </button>
+      </motion.article>
     </Reveal>
   )
 }
@@ -754,7 +750,7 @@ function Research() {
 // ── Certifications ───────────────────────────────────────────────────────────
 function Certs() {
   return (
-    <section className="max-w-6xl mx-auto px-5 sm:px-6 py-20 border-t border-white/[0.05]">
+    <section id="certifications" className="max-w-6xl mx-auto px-5 sm:px-6 py-20 border-t border-white/[0.05]">
       <Reveal>
         <Eyebrow index="06">CREDENTIALS</Eyebrow>
         <h2 className="section-title mb-12 flex items-center gap-3">

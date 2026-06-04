@@ -3,7 +3,6 @@ export const PROFILE = {
   title: 'AI Engineer · MSc AI & Robotics · Working Student Gen AI @ Allianz',
   tagline: 'Building production AI systems — from LLM pipelines to edge deployment.',
   email: 'deshpandeaniket8055@gmail.com',
-  phone: '+49 15566020810',
   location: 'Hof, Germany',
   linkedin: 'https://linkedin.com/in/deshpandeaniket8055',
   github: 'https://github.com/AniketDeshpande-23',

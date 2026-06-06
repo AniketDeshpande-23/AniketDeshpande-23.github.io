@@ -184,6 +184,7 @@ export const PAPERS = [
 ]
 
 export const CERTS = [
+  { name: 'Certificate of Completion: Claude 101', issuer: 'Anthropic' },
   { name: 'Foundations of AI and Machine Learning', issuer: 'Microsoft – Coursera' },
   { name: 'Open-Source Models with Hugging Face', issuer: 'Hugging Face' },
   { name: 'AI Python for Beginners', issuer: 'DeepLearning.AI' },

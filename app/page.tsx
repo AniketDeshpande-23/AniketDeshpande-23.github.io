@@ -240,7 +240,7 @@ function Navbar({ active }: { active: string }) {
 // ── Hero ─────────────────────────────────────────────────────────────────────
 function Hero() {
   const reduce = useReducedMotion()
-  const focus = ['LLM pipelines & RAG', 'Computer vision on edge', 'Agentic AI systems', 'Enterprise Gen AI']
+  const focus = ['LLM Pipelines & RAG', 'Computer Vision On Edge', 'Agentic AI Systems', 'Enterprise Gen AI']
   return (
     <section
       id="top"
@@ -297,7 +297,7 @@ function Hero() {
               <span className="h-2.5 w-2.5 rounded-full bg-[#ff5f57]" />
               <span className="h-2.5 w-2.5 rounded-full bg-[#febc2e]" />
               <span className="h-2.5 w-2.5 rounded-full bg-[#28c840]" />
-              <span className="ml-2 font-mono text-xs text-ink-muted">aniket — focus.sh</span>
+              <span className="ml-2 font-mono text-xs text-ink-muted">Aniket — focus.sh</span>
             </div>
             <div className="p-5 font-mono text-sm space-y-1.5">
               <p className="text-ink-muted">
@@ -305,7 +305,7 @@ function Hero() {
               </p>
               <p className="text-ink">MSc AI &amp; Robotics · Hof University</p>
               <p className="text-ink-muted mt-3">
-                <span className="text-signal">›</span> cat focus.txt
+                <span className="text-signal">›</span> Focus
               </p>
               {focus.map((f) => (
                 <p key={f} className="text-ink-soft pl-3">

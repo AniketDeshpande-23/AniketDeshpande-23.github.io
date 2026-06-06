@@ -51,7 +51,7 @@ export const EXPERIENCE = [
 export const PROJECTS = [
   {
     title: 'AI Support Agent',
-    period: 'May 2026',
+    period: 'Nov – Dec 2025',
     stack: ['Python', 'FastAPI', 'React', 'LangChain', 'FAISS', 'Docker'],
     github: 'https://github.com/AniketDeshpande-23/ai-support-agent',
     demo: null,
@@ -64,7 +64,7 @@ export const PROJECTS = [
   },
   {
     title: 'KRAFT 2.0 – Agentic AI Thesis Assistant',
-    period: 'May 2026',
+    period: 'Jan – Feb 2026',
     stack: ['Python', 'FastAPI', 'LangGraph', 'arXiv API', 'Semantic Scholar', 'Perplexity', 'Docker', 'SSE'],
     github: 'https://github.com/AniketDeshpande-23/kraft-agentic-ai',
     demo: null,
